@@ -16,3 +16,5 @@ chrome.runtime.onMessage.addListener(
     }
   }
 );
+
+//background script sends a message when the user clicks on the button.  The message will then pass into content script so it appears on the page
